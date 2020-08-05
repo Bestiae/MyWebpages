@@ -1,0 +1,37 @@
+  [
+    {
+      "src": "1.jpg",
+      "title": "Lion",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed sapien ac justo dapibus sodales nec eu urna. Donec vel sollicitudin ex. Phasellus at sapien arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+    },
+    {
+      "src": "2.jpg",
+      "title": "Cutie-pie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed sapien ac justo dapibus sodales nec eu urna. Donec vel sollicitudin ex. Phasellus at sapien arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+    },
+    {
+      "src": "3.jpg",
+      "title": "Fox",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed sapien ac justo dapibus sodales nec eu urna. Donec vel sollicitudin ex. Phasellus at sapien arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+    },
+    {
+      "src": "4.jpg",
+      "title": "Squirrel",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed sapien ac justo dapibus sodales nec eu urna. Donec vel sollicitudin ex. Phasellus at sapien arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+    },
+    {
+      "src": "5.jpg",
+      "title": "Otters",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed sapien ac justo dapibus sodales nec eu urna. Donec vel sollicitudin ex. Phasellus at sapien arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+    },
+    {
+      "src": "6.jpg",
+      "title": "Bear",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed sapien ac justo dapibus sodales nec eu urna. Donec vel sollicitudin ex. Phasellus at sapien arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+    },
+    {
+      "src": "8.jpg",
+      "title": "Otter",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed sapien ac justo dapibus sodales nec eu urna. Donec vel sollicitudin ex. Phasellus at sapien arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+    }      
+  ]

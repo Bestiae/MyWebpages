@@ -1,0 +1,513 @@
+        body {
+            margin: 0px;
+        }
+        nav {
+            text-align: center;
+            background: #333;
+            width: 100%;
+            }
+               
+        ul {
+            font-size: 18px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            }
+        
+        ul li {
+                display: inline-block;
+                width: 150px;
+                }
+        
+        ul li a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            background: #222;
+            color: white;
+            padding: 15px;
+        }
+        
+        ul li a:hover {
+            background: #000;
+        }
+                
+        #wrapper {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+        
+        header {
+            max-width: 1140px;
+            margin: 0 auto;
+            text-align: center;
+            background: #444;
+            color: #fff;
+            font-size: 0px;
+        }
+        .logo {
+            width: 70%;
+            height: 40%;
+            /*float: center;*/
+        }
+        h1, h2 {
+            margin: 10px;
+            text-align: center;
+        }
+        .img2{
+            padding: 15px;
+            width: 36%;
+            height: 40%;
+            float: left;
+            }       
+               
+        footer {
+            background: #ddd;
+            padding: 25px;
+            text-align: center;
+        }
+        p {
+            font-size: 20px;
+            text-align: left;
+            margin: 6px;
+        }
+        .td {
+            background: #BC8F8F;
+        }
+        .cv {
+            background: #90EE90;
+        }
+        .le {
+            background: #FFA500;
+        }
+        table tbody tr td b {
+            text-align: center;
+        }
+        table tbody {
+            margin-left: 1px;
+            /*//border: 4px solid #615f5f;
+            //margin: 35px;*/
+            background: white;
+            border-spacing: 3px;
+            margin-left: 5px;
+            padding: 0px;
+            text-align: center;
+        }
+        table {
+            border: 4px solid #615f5f;
+            margin: 35px;
+            /*background: white;
+            border-spacing: 3px;
+            margin-left: 5px;
+            padding: 0px;
+            text-align: center;*/
+        }
+        tr, td {
+            background-color: #ececec;
+            padding: 3px;
+            font-weight: normal;
+        }
+              
+        article {
+            text-align: center;
+        }
+        aside {
+            padding: 20px;
+            /*//background-color: #32CD32;*/
+            text-align: right;
+        } 
+        section {
+            margin: 15px;
+        }
+        aside p {
+            text-align: center;
+        }
+        section ul {
+            padding-left: 40px;
+            margin-bottom: 3em;
+            list-style-type: circle;
+          }
+
+        section ul li {
+            display:block;
+            margin: 15px;
+            width: 300px; 
+            /*height: 150px; //*/
+        }
+
+        * {
+        box-sizing: border-box;
+        } 
+        .column {
+          float: right;
+          width: 50%;
+          padding: 20px;
+          height: 600px;
+        }
+        .row:after {
+            margin-bottom: 3em;
+          content: "";
+          display: table;
+          clear: both;
+          width: 50%;
+        }
+        .img3{
+            padding: 20px;
+            width: 100%;
+        } 
+        .table1 {
+            text-align: center;
+            width: 100%;
+            height: 400px;
+            padding: 15px; 
+        }
+        .table1 li {
+            display: inline-block;
+            margin: 5px;
+            width: 400px;
+        }
+        .table2 {
+            text-align: center;
+            width: 100%;
+            height: 400px;
+            padding: 0px; 
+        }
+        .table2 li {
+            display: inline-block;
+            margin: 9px;
+            width: 390px;
+        }
+        #ziv{
+            text-align: center;
+            margin: 10px;
+        }
+        .text {
+            text-align: center;
+            padding: 20px;
+        }        
+        /*-------*/
+        
+        /*foto*/
+        .mapa {
+            position: relative;
+            text-align: center;
+        }
+
+        .foto1 {
+            cursor: pointer;
+            position: absolute;
+            opacity: .3;
+            top: -300px;
+            left: -658px;
+            height: 50px;
+            width: 50px;
+        }
+        .tooltip {
+          position: relative;
+          display: inline-block;
+          border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+        }
+
+        /* Tooltip text */
+        .tooltip .tooltiptext {
+          visibility: hidden;
+          width: 120px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          padding: 5px 0;
+          border-radius: 6px;
+         
+          /* Position the tooltip text - see examples below! */
+          position: absolute;
+          z-index: 1;
+          top: -320px;
+          left: -610px;
+        }
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip:hover .tooltiptext {
+          visibility: visible;
+        }
+        /*-----2----*/
+        .foto2 {
+            cursor: pointer;
+            position: absolute;
+            opacity: .3;
+            top: -250px;
+            left: -404px;
+            height: 50px;
+            width: 50px;
+        }
+        .tooltip2 {
+          position: relative;
+          display: inline-block;
+          border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+        }
+
+        /* Tooltip text */
+        .tooltip2 .tooltiptext {
+          visibility: hidden;
+          width: 120px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          padding: 5px 0;
+          border-radius: 6px;
+         
+          /* Position the tooltip text - see examples below! */
+          position: absolute;
+          z-index: 1;
+          top: -270px;
+          left: -355px;
+        }
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip2:hover .tooltiptext {
+          visibility: visible;
+        }
+        /*----3----*/
+        .foto3 {
+            cursor: pointer;
+            position: absolute;
+            opacity: .3;
+            top: -88px;
+            left: -155px;
+            height: 50px;
+            width: 50px;
+        }
+        .tooltip3 {
+          position: relative;
+          display: inline-block;
+          border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+        }
+
+        /* Tooltip text */
+        .tooltip3 .tooltiptext {
+          visibility: hidden;
+          width: 120px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          padding: 5px 0;
+          border-radius: 6px;
+         
+          /* Position the tooltip text - see examples below! */
+          position: absolute;
+          z-index: 1;
+          top: -147px;
+          left: -277px;
+        }
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip3:hover .tooltiptext {
+          visibility: visible;
+        }
+        /*----4----*/
+        .foto4 {
+            cursor: pointer;
+            position: absolute;
+            opacity: .3;
+            top: -250px;
+            left: -837px;
+            height: 50px;
+            width: 50px;
+        }
+        .tooltip4 {
+          position: relative;
+          display: inline-block;
+          border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+        }
+
+        /* Tooltip text */
+        .tooltip4 .tooltiptext {
+          visibility: hidden;
+          width: 120px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          padding: 5px 0;
+          border-radius: 6px;
+         
+          /* Position the tooltip text - see examples below! */
+          position: absolute;
+          z-index: 1;
+          top: -269px;
+          left: -788px
+        }
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip4:hover .tooltiptext {
+          visibility: visible;
+        }
+        /*----5----*/
+        .foto5 {
+            cursor: pointer;
+            position: absolute;
+            opacity: .3;
+            top: -345px;
+            left: -875px;
+            height: 50px;
+            width: 50px;
+        }
+        .tooltip5 {
+          position: relative;
+          display: inline-block;
+          border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+        }
+
+        /* Tooltip text */
+        .tooltip5 .tooltiptext {
+          visibility: hidden;
+          width: 120px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          padding: 5px 0;
+          border-radius: 6px;
+         
+          /* Position the tooltip text - see examples below! */
+          position: absolute;
+          z-index: 1;
+          top: -365px;
+          left: -826px;
+        }
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip5:hover .tooltiptext {
+          visibility: visible;
+        }
+        .formular {
+          text-align: left;
+          padding-top: 40px;
+          padding-bottom: 40px; 
+          margin-left: 30px;
+        }
+        /*label {
+          padding: 30px;
+          padding-top: 30px;
+          
+        } */
+        /*fotogalery*/
+        #fotogalery {
+          padding: 2px;
+        }
+        .mini-image {
+          height: 150px;
+          display: inline-block;
+          margin: 10px;
+        }
+
+        #container {
+           text-align: center;
+           width: 100%;
+           padding: 10%;
+           margin: 0 auto;
+
+        }
+
+        #macro {
+           display: none;
+           position: absolute;
+           top: 0;
+           left: 0;
+           height: 100%;
+           width: 100%;
+           z-index: 3;
+
+        }
+
+        #close {
+           position: absolute;
+           height: 60px;
+           width: 60px;
+           margin: 25px;
+           background-image: url("images/close.png");
+           background-repeat: no-repeat;
+           background-size: contain;
+           top: 10%;
+           right: 3%;
+           border-radius: 50%;
+        }
+
+        #close:hover {
+           background-color: rgba(255, 255, 255, 0.3);
+           cursor: pointer;
+        }
+
+
+
+
+        #macro-container {
+           height: 70%;
+           width: 80%;
+           margin: 8% auto 0 auto;
+        }
+
+        #photo {
+           position: relative;
+           display: inline-block;
+           height: 100%;
+           width: 70%;
+           background-color: rgba(0,0,0,0.8);
+          background-size: contain;
+           background-position: center;
+           background-repeat: no-repeat;
+           z-index: 1;
+        }
+
+
+
+
+        #description {
+           overflow: auto;
+           color: aqua;
+           display: inline-block;
+          float: right;
+           height: 100%;
+           width: 25%;
+           background-color: rgba(0,0,0,0.8);
+        }
+        #description p {
+                   font-size: 1.5em;
+                   margin: 10px;
+                   text-align: center;
+                }
+                
+        #description h1 {
+            text-align: center;
+        }
+
+        #left,  #play, #stop, #right {
+            position: absolute;
+            bottom: 0;
+            height: 80px;
+            z-index: 0;
+            border-radius: 50%;
+        }
+
+        #left:hover,
+        #play:hover,
+        #stop:hover,
+        #right:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+        }
+        #play, #stop {
+            left: 45% ;
+            bottom: 2%;
+        } 
+
+        #left {
+            left: 0;
+        }
+
+        #right {
+            right: 0;
+        }
+
+        #poznamka {
+          text-align: center;
+          margin: 20px;
+        }
+        /*----*/

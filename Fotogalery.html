@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <script src="JS.js"></script>
+  <link rel="stylesheet" type="text/css" href="CSS.css">
+  <meta charset="utf-8">
+    <title>Fotogalery</title>
+</head>
+
+<body onload="init()">    
+    <div id="wrapper">
+        <header>
+            <a href="O_mne.html"><img class="logo" src="long.svg" alt="Tu bolo moje logo..."></a>
+        </header>
+         
+        <nav>
+            <ul>
+                <li><a href="O_mne.html">O mne</a></li>
+                <li><a href="Zivotopis.html">Životopis</a></li>
+                <li><a href="Moj_rozvrh.html">Môj rozvrh</a></li>
+                <li><a href="Ostrov_Batz.html">Ostrov Batz</a></li>
+                <li><a href="Formular.html">Formular</a></li>
+                <li><a href="Fotogalery.html">Fotogalery</a></li>
+            </ul>
+        </nav>
+<!--  -->
+        <div><p id="poznamka">
+            Tato kolekcia neobvyklých foto je downloadnuta z web stranky <a href="https://www.comedywildlifephoto.com/gallery/2019_finalists.php" target="_blank">Comedy wild life photo</a>
+        </p></div>
+        <div id="fotogalery">
+          <div id="container">
+            
+          </div>
+          <div id="macro">
+            <div id="close"></div>
+            <div id="macro-container">
+                <div id="photo">
+                    <img id="left" alt="left" src="images/prev.png" onclick="left()">
+                    <img id="play" alt="play" src="images/play.png" onclick=" play(); slideshow();">
+                    <img id="stop" alt="stop" src="images/stop.png" onclick="stop()">
+                    <img id="right" alt="right" src="images/next.png" onclick="right()">
+                </div>
+                <span id="description"></span>
+          </div>
+        </div>
+<!--  -->
+        <footer>
+            Copyright 2019 <a href="https://www.facebook.com/miroslav.khoma" target="_blank">contact me</a>
+        </footer>
+        
+    </div>
+</body>
+</html> 
